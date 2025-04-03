@@ -1,7 +1,7 @@
 // This function is for loading movie data from the CSV file and dynamically generating genre checkboxes
 function loadMovieData() {
     // Load data from the local CSV file using D3.js
-    d3.csv("../Data/processed_data.csv").then(data => {
+    d3.csv("../../Data/processed_data.csv").then(data => {
         // Process movie data
         movieData = data.map(d => ({
             id: d["imdbID"],
