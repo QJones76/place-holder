@@ -28,6 +28,7 @@ body {
   position: sticky;
   top: 0;
   width: 100%;
+  height: auto; /* Let the header grow naturally */
   background-color: #b2b2b2;
   border-bottom: 2px solid black;
   padding: 20px;
@@ -37,10 +38,10 @@ body {
   z-index: 1000;
 }
 
-/* Main content section */
 section {
-  margin-top: 2rem; /* Clean space below sticky header */
+  margin-top: 0; /* Remove manual space since sticky header is not 'fixed' */
 }
+
 
 /* Page title styling */
 .page-title {
