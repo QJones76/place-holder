@@ -1,4 +1,12 @@
 /* Reset default margin and padding */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -30,7 +38,7 @@ body {
 }
 
 section {
-  margin-top: 20vh; /* Add space to the section element so charts show even with the locked top of page */
+  padding-top: 22vh; /* Add space to the section element so charts show even with the locked top of page */
 }
   
 /* Page title styling */
