@@ -47,6 +47,7 @@ section {
 .page-title {
   text-align: center;
   margin-bottom: 20px;
+  position: sticky;
 }
 
 .page-title h1 {
@@ -67,7 +68,6 @@ section {
   border: 2px solid black;
   padding: 20px;
   background-color: #f9f9f9;
-  width: 100%;
   margin: 0 auto;
   position: relative;
 }
